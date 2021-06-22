@@ -4,7 +4,7 @@ from telegram.ext import CommandHandler , Filters
 from tracker import *
 
 
-telegram_bot_token = "1510402801:AAEN0FMj6w_INdxJnR91Tvq-sD8ItCBFrPA"
+telegram_bot_token = "YOUR_TOKEN"
 
 
 updater = Updater(token=telegram_bot_token, use_context=True)
